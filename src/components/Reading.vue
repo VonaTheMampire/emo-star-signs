@@ -1,10 +1,18 @@
 <template>
   <div class="es-reading">
-    <transition name="slide">
+
+    <transition name="slide-left">
       <div class="es-reading-textbox" v-if="!loading && sign">
         <div class="es-reading-text">
           <h1 class="es-sign">{{sign}} <span>{{date}}</span></h1>
           <h3 class="es-aspect">Your emo aspect for today is {{aspect}}</h3>
+        </div>
+      </div>
+    </transition>
+
+    <transition name="slide-right">
+      <div class="es-reading-textbox" v-if="!loading && sign">
+        <div class="es-reading-text">
           <div class="es-flex">
             <div class="es-text-container">
               <p class="es-text">{{reading}}</p>
@@ -16,6 +24,7 @@
         </div>
       </div>
     </transition>
+
   </div>
 </template>
 
@@ -86,13 +95,18 @@ export default {
 
         .es-rating-container {
           margin-left: 50px;
-          min-width: 260px;
+          min-width: 300px;
         }
 
         .es-aspect {
           color: red;
           font-size: 22px;
           letter-spacing: 0.08em;
+        }
+
+        .es-spotify {
+          min-width: 300px;
+          margin-left: 50px;
         }
 
         .es-sign {
@@ -108,14 +122,5 @@ export default {
         }
       }
     }
-  }
-
-  .slide-enter-active, .slide-leave-active {
-  transition: opacity .5s, margin .2s;
-  }
-
-  .slide-enter, .slide-leave-to {
-    opacity: 0;
-    margin-left: -4px;
   }
 </style>

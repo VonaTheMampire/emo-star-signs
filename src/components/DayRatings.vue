@@ -1,8 +1,8 @@
 <template>
   <div class="es-day-ratings">
-    <Rating title="Vibe" rating="3" />
-    <Rating title="Emptiness" rating="1" />
-    <Rating title="Sadness" rating="2" />
+    <Rating title="Vibe" :rating="Math.ceil(Math.random() * 3)" />
+    <Rating title="Emptiness" :rating="Math.ceil(Math.random() * 3)" />
+    <Rating title="Sadness" :rating="Math.ceil(Math.random() * 3)" />
   </div>
 </template>
 
