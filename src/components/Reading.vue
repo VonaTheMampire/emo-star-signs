@@ -1,5 +1,15 @@
 <template>
   <div class="es-reading">
+    <transition name="slide-left">
+      <div v-if="!sign" class="es-reading-textbox">
+        <div class="es-reading-text">
+          <div class="es-text-container">
+            <h1>About</h1>
+            <p>This is a stupid page that generates random star signs that mix emo lyrics with astrology. It's based on the song <a href="https://futureteens.bandcamp.com/track/whats-my-sign-again-2">"What's my sign again?"</a> by the band <a href="https://futureteens.bandcamp.com/">Future Teens</a>. You should really check them out 🙏</p>
+          </div>
+        </div>
+      </div>
+    </transition>
 
     <transition name="slide-left">
       <div class="es-reading-textbox" v-if="!loading && sign">
@@ -24,7 +34,6 @@
         </div>
       </div>
     </transition>
-
   </div>
 </template>
 
@@ -61,7 +70,7 @@ export default {
       this.aspect = getAspect(newSign)
       setTimeout(() => {
         this.loading = false
-      }, 400)
+      }, 600)
     }
   },
 

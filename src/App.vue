@@ -16,6 +16,30 @@ body, html {
   padding: 0;
 }
 
+body {
+  overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
 #app {
   font-family: 'Indie Flower', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
