@@ -1,10 +1,10 @@
 <template>
   <div class="es-header">
     <div class="es-page-title">
-      <h1>STARSIGHS ✨</h1>
+      <h1>What's my sign again? 🍕</h1>
     </div>
     <div class="es-page-subtitle">
-      <p>star signs for emo souls 😭</p>
+      <p>star signs for the emo soul 😭</p>
     </div>
   </div>
 </template>

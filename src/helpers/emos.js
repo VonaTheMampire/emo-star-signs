@@ -2,7 +2,15 @@ const heroes = [
   'Mike Kinsella',
   'Davey Havok',
   'Gerard Way',
-  'Matt Pyror'
+  'Matt Pyror',
+  'Kory Gregory',
+  'Brendan Lukens',
+  'Jake Ewald',
+  'Sean Huber',
+  'Ian Farmer',
+  'Britty Drake',
+  'Phoebe Bridgers',
+  'Julien Baker 😭'
 ]
 
 export const getAspect = (sign) => {

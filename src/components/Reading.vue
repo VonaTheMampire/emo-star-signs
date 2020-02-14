@@ -1,12 +1,18 @@
 <template>
-
   <div class="es-reading">
     <transition name="slide">
       <div class="es-reading-textbox" v-if="!loading && sign">
         <div class="es-reading-text">
           <h1 class="es-sign">{{sign}} <span>{{date}}</span></h1>
           <h3 class="es-aspect">Your emo aspect for today is {{aspect}}</h3>
-          <p class="es-text">{{reading}}</p>
+          <div class="es-flex">
+            <div class="es-text-container">
+              <p class="es-text">{{reading}}</p>
+            </div>
+            <div class="es-rating-container">
+              <DayRatings />
+            </div>
+          </div>
         </div>
       </div>
     </transition>
@@ -17,8 +23,13 @@
 import { getReading } from '@/helpers/starsigns.js'
 import { getAspect } from '@/helpers/emos.js'
 import moment from 'moment'
+import DayRatings from '@/components/DayRatings.vue'
 
 export default {
+  components: {
+    DayRatings
+  },
+
   props: {
     sign: {
       required: true,
@@ -62,9 +73,21 @@ export default {
       position: relative;
 
       .es-reading-text {
-        max-width: 900px;
+        max-width: 1080px;
         margin: 0 auto;
         font-size: 20px;
+      
+        .es-flex {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .es-rating-container {
+          margin-left: 50px;
+          min-width: 260px;
+        }
 
         .es-aspect {
           color: red;
