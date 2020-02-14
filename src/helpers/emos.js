@@ -7,8 +7,15 @@ const heroes = [
   'Brendan Lukens',
   'Jake Ewald',
   'Sean Huber',
+  'Kelly-Dawn',
+  'Frank Iero',
+  'Sarah "Thomo" Thompson',
   'Ian Farmer',
+  'Amy Hoffman',
+  'Evan M. Weiss',
   'Britty Drake',
+  'Maya Mortman',
+  'Georgia McDonald',
   'Phoebe Bridgers',
   'Julien Baker 😭'
 ]
