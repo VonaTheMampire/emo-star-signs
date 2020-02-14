@@ -111,7 +111,7 @@ export default {
   }
 
   .slide-enter-active, .slide-leave-active {
-  transition: opacity .3s, margin .2s;
+  transition: opacity .5s, margin .2s;
   }
 
   .slide-enter, .slide-leave-to {
