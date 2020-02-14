@@ -42,6 +42,8 @@ const after = [
 
 const link = [
   " though ",
+  " but don't let this distract you and ",
+  " so make sure you save your energy since ",
   " but ",
   " although ",
   " however ",
