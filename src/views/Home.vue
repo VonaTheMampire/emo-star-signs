@@ -30,7 +30,7 @@ export default {
 
 <style lang="scss">
 .es-billboard {
-  padding: 60px;
+  padding: 30px 60px;
   background: black;
   color: white;
 }
