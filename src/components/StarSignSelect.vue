@@ -37,16 +37,19 @@ export default {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  height: auto;
 
   .es-starsign {
     padding: 10px;
     transition: all .2s;
+    height: 100px;
 
     .es-icon {
       height: 90px;
       width: 90px;
       fill: white;
       transition: all .2s;
+      position: absolute;
     }
 
      &:hover {
@@ -54,6 +57,10 @@ export default {
 
        .es-icon {
          fill: red;
+         margin-top: -10px;
+         margin-left: -10px;
+         height: 110px;
+         width: 110px;
        }
     }
 

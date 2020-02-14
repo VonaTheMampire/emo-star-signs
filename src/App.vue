@@ -25,4 +25,22 @@ body, html {
   background: white;
   color: black;
 }
+
+.slide-left-enter-active, .slide-left-leave-active {
+transition: opacity .6s, margin .4s;
+}
+
+.slide-left-enter, .slide-left-leave-to {
+  opacity: 0;
+  margin-left: -4px;
+}
+
+.slide-right-enter-active, .slide-right-leave-active {
+transition: opacity .6s, margin .4s;
+}
+
+.slide-right-enter, .slide-right-leave-to {
+  opacity: 0;
+  margin-left: 4px;
+}
 </style>
