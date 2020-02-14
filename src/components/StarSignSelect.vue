@@ -40,13 +40,13 @@ export default {
   height: auto;
 
   .es-starsign {
-    padding: 10px;
     transition: all .2s;
-    height: 100px;
+    height: 85px;
+    width: 85px;
 
     .es-icon {
-      height: 90px;
-      width: 90px;
+      height: 85px;
+      width: 85px;
       fill: white;
       transition: all .2s;
       position: absolute;
