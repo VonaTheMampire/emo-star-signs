@@ -1,18 +1,37 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <div class="es-billboard">
+      <Header />
+      <SignSelector v-model="selectedSign" />
+    </div>
+    <Reading :sign="selectedSign" />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Header from '@/components/Header.vue'
+import SignSelector from '@/components/StarSignSelect.vue'
+import Reading from '@/components/Reading.vue'
 
 export default {
-  name: 'home',
   components: {
-    HelloWorld
+    Header,
+    SignSelector,
+    Reading
+  },
+
+  data () {
+    return {
+      selectedSign: ''
+    }
   }
 }
 </script>
+
+<style lang="scss">
+.es-billboard {
+  padding: 60px;
+  background: black;
+  color: white;
+}
+</style>

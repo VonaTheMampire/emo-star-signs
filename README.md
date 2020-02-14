@@ -1,4 +1,5 @@
-# emo-starsigns
+# Emo Starsigns
+It's star signs for emos, what more do you want? 😭
 
 ## Project setup
 ```
