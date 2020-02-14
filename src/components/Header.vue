@@ -21,7 +21,7 @@
      h1 {
        margin: 0;
        letter-spacing: 0.08em;
-       font-weight: light;
+       font-weight: lighter;
        font-size: 40px;
      }
   }

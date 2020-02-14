@@ -19,7 +19,7 @@ export default {
 
   computed: {
     starRating () {
-      return new Array(Number.parseInt(this.rating)).fill('*').join('')
+      return Array(Number.parseInt(this.rating)).fill('⭐').join('')
     }
   }
 }
@@ -28,6 +28,6 @@ export default {
 <style lang="scss" scoped>
 .es-rating {
   font-family: 'Amatic SC';
-  font-size: 24px;  
+  font-size: 28px;  
 }
 </style>
