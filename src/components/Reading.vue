@@ -3,7 +3,7 @@
     <transition name="slide-left">
       <div v-if="!sign" class="es-reading-textbox">
         <div class="es-reading-text">
-          <div class="es-text-container">
+          <div>
             <h1>About</h1>
             <p>This a silly project that generates random horoscopes mixing emo lyrics with astrology. It's based on the song <a href="https://futureteens.bandcamp.com/track/whats-my-sign-again-2">"What's My Sign Again?"</a> by the band <a href="https://futureteens.bandcamp.com/">Future Teens</a>. You should really check them out 🙏.</p>
           </div>
@@ -15,7 +15,7 @@
       <div class="es-reading-textbox" v-if="!loading && sign">
         <div class="es-reading-text">
           <h1 class="es-sign">{{sign}} <span>{{date}}</span></h1>
-          <h3 class="es-aspect">Your emo aspect for today is {{aspect}}</h3>
+          <h3 class="es-aspect">Daily emo aspect: {{aspect}}</h3>
         </div>
       </div>
     </transition>
@@ -24,10 +24,10 @@
       <div class="es-reading-textbox" v-if="!loading && sign">
         <div class="es-reading-text">
           <div class="es-flex">
-            <div class="es-text-container">
+            <div class="es-text-container es-container">
               <p class="es-text">{{reading}}</p>
             </div>
-            <div class="es-rating-container">
+            <div class="es-rating-container es-container">
               <DayRatings />
             </div>
           </div>
@@ -85,6 +85,7 @@ export default {
 <style lang="scss" scoped>
   .es-reading {
     padding: 20px 60px;
+    min-height: 700px;
 
     .es-reading-textbox {
       width: 100%;
@@ -98,13 +99,22 @@ export default {
         .es-flex {
           display: flex;
           flex-direction: row;
+          flex-wrap: wrap;
           justify-content: space-between;
           align-items: center;
+        }
+
+        .es-text-container {
+          max-width: 700px;
         }
 
         .es-rating-container {
           margin-left: 50px;
           min-width: 300px;
+
+          @media only screen and (max-width: 900px) { 
+            margin-left: 0px;
+          }
         }
 
         .es-aspect {
@@ -130,6 +140,12 @@ export default {
           }
         }
       }
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .es-container {
+      min-width: 100%;
     }
   }
 </style>
