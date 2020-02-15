@@ -5,7 +5,7 @@
         <div class="es-reading-text">
           <div class="es-text-container">
             <h1>About</h1>
-            <p>This is a stupid page that generates random star signs that mix emo lyrics with astrology. It's based on the song <a href="https://futureteens.bandcamp.com/track/whats-my-sign-again-2">"What's my sign again?"</a> by the band <a href="https://futureteens.bandcamp.com/">Future Teens</a>. You should really check them out 🙏</p>
+            <p>This a silly project that generates random horoscopes mixing emo lyrics with astrology. It's based on the song <a href="https://futureteens.bandcamp.com/track/whats-my-sign-again-2">"What's My Sign Again?"</a> by the band <a href="https://futureteens.bandcamp.com/">Future Teens</a>. You should really check them out 🙏.</p>
           </div>
         </div>
       </div>
