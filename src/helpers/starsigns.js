@@ -75,7 +75,7 @@ const link = [
   " but ",
   " although ",
   " however ",
-  " since",
+  " since ",
   " on the other hand ",
   " yet ",
   " nevertheless "
