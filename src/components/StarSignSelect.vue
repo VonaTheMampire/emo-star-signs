@@ -35,18 +35,22 @@ export default {
   padding: 20px 60px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   height: auto;
 
   .es-starsign {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     transition: all .2s;
-    height: 85px;
-    width: 85px;
+    height: 90px;
+    width: 8%;
 
-    .es-icon {
-      height: 85px;
-      width: 85px;
+   .es-icon {
+      width: 90px;
+      height: 90px;
       fill: white;
       transition: all .2s;
       position: absolute;
@@ -57,10 +61,8 @@ export default {
 
        .es-icon {
          fill: red;
-         margin-top: -10px;
-         margin-left: -10px;
-         height: 110px;
-         width: 110px;
+         height: 120px;
+         width: 120px;
        }
     }
 
@@ -68,8 +70,24 @@ export default {
       border-color: red;
 
       .es-icon {
-         fill: red;
-       }
+        fill: red;
+        height: 120px;
+        width: 120px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1378px) {
+    .es-starsign {
+      height: 100px;
+      width: 16%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .es-starsign {
+      height: 100px;
+      width: 32%;
     }
   }
 }

@@ -17,7 +17,14 @@ const heroes = [
   'Maya Mortman',
   'Georgia McDonald',
   'Phoebe Bridgers',
-  'Julien Baker 😭'
+  'Julien Baker 😭',
+  'Yvette Young',
+  'Stefan Babcock',
+  'Justin Pierre',
+  'Christian Holden',
+  'The whole Future Teens Gang',
+  "The boiz from P'daddy",
+  "The whole (t-t)b gang 🤙",
 ]
 
 export const getAspect = (sign) => {
