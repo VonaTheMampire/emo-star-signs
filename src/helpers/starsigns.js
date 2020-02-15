@@ -22,7 +22,12 @@ const before = [
   "You're like a flame that attracts many moths",
   "Your power is your own, so don't be too eager to give it up",
   "You’ve got the cosmic greenlight to indulge",
-  "Self-care is the name of the game"
+  "Self-care is the name of the game",
+  "Today you should focus on the things that are important to you",
+  "Sometimes it just isn't your day. It might be that your energy isn't aligned",
+  "Pay attenention to your friends today, some of them might have need help aligning their energy",
+  "One of your friends might have some powerful energy today and you should help them roll with it",
+  "Your relationships might not feel like they giving you what you need today"
 ]
 
 const after = [
@@ -64,7 +69,13 @@ const after = [
   "you might feel like your friends are up in mountains and your drowning in lakes.",
   "you should teach the 7th grade.",
   "you should get a heart tattoo. You need a dumb one, like really bad.",
-  "you're just in the middle of the ride, everything, everything will be alight."
+  "you're just in the middle of the ride, everything, everything will be alight.",
+  "don't forget to take your meds today.",
+  "it's just like Ninja Turtles 2: Secret of the ooze.",
+  "just like the moon, it would take thousands of them to shine bright as you do.",
+  "why not be more like Drake and Rihanna?",
+  "you can just sleep well alone now.",
+  "you should have some Passion Fruit Tea, just for the taste of it."
 ]
 
 const link = [
