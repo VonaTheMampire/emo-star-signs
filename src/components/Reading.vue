@@ -85,7 +85,7 @@ export default {
 <style lang="scss" scoped>
   .es-reading {
     padding: 20px 60px;
-    min-height: 700px;
+    min-height: 500px;
 
     .es-reading-textbox {
       width: 100%;
