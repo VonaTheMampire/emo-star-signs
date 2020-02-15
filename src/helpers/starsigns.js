@@ -47,16 +47,16 @@ const after = [
   "maybe there is someone you should thank for being a part of your forget-me-nots and marigolds.",
   "haven't you ever heard of closing the god damn door?",
   "you should let their waves crash down on you and take you away.",
-  "you want to be dressed in poetry, but imagery doesn't fit",
-  "you might be the last good thing about this part of town",
-  "you've got a smile that could light this town, and your friends might need it",
+  "you want to be dressed in poetry, but imagery doesn't fit.",
+  "you might be the last good thing about this part of town.",
+  "you've got a smile that could light this town, and your friends might need it.",
   "that's just according to the moon I guess.",
   "maybe this is more than you bargained for.",
   "why not just join the black parade.",
   "you might think maybe it was never meant.",
-  "you might feel like your friends are up in mountains and your drowning in lakes",
+  "you might feel like your friends are up in mountains and your drowning in lakes.",
   "you should teach the 7th grade.",
-  "you should get a heart tatoo. You need a dumb one, like really bad",
+  "you should get a heart tatoo. You need a dumb one, like really bad.",
   "you're just in the middle of the ride, everything, everything will be alight."
 ]
 
