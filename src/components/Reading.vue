@@ -1,5 +1,5 @@
 <template>
-  <div class="es-reading">
+  <div class="es-reading" id="es-reading">
     <transition name="slide-left">
       <div v-if="!sign" class="es-reading-textbox">
         <div class="es-reading-text">

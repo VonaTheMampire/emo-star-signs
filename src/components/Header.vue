@@ -11,23 +11,36 @@
 
 <style lang="scss" scoped>
 .es-header {
-  padding: 0 60px; 
+  padding: 20px 60px; 
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
   font-family: 'Amatic SC';
 
   .es-page-title {
      h1 {
-       margin: 0;
-       letter-spacing: 0.08em;
-       font-weight: lighter;
-       font-size: 40px;
-     }
+      margin: 0;
+      letter-spacing: 0.08em;
+      font-weight: lighter;
+      font-size: 40px;
+
+      @media only screen and (max-width: 768px) {
+        margin: 0;
+        font-size: 22px;
+      }
+    }
   }
 
   .es-page-subtitle {
     font-size: 20px;
+    
+    p {
+      margin: 0;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 16px;
+      }
+    }
   }
 }
 </style>
