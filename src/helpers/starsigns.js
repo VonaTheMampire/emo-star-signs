@@ -32,15 +32,15 @@ const before = [
 
 const after = [
   "you might find yourself walking Scott Street feeling like a stranger.",
-  "that's bullshit, you fucking miss them.",
+  "maybe that's bullshit, you fucking miss them.",
   "don't bother trying to explain, angel.",
-  "how 'bout your outside of their window?",
+  "careful you don't end up outside of their window.",
   "you should just keep hoping for the best and just hoping nothing happens.",
   "maybe all that you had was just good kissing chemistry?",
   "maybe you should cut yourself some slack, you're just trying to get back on your feet.",
   "you're just trying to do the things you thought you'd have done by 19.",
   "if that's just bad news, you're a liar.",
-  "your a marathon runner and both your ankles are sprained.",
+  "you're a marathon runner and both your ankles are sprained.",
   "don't learn the drums, it's too much shit to carry.",
   "all your friends are getting married.",
   "you'll meet again when both your cars collide.",
@@ -74,7 +74,7 @@ const after = [
   "it's just like Ninja Turtles 2: Secret of the ooze.",
   "just like the moon, it would take thousands of them to shine bright as you do.",
   "why not be more like Drake and Rihanna?",
-  "you can just sleep well alone now.",
+  "at least you can just sleep well alone now.",
   "you should have some Passion Fruit Tea, just for the taste of it."
 ]
 

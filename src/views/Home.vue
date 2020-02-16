@@ -5,6 +5,7 @@
       <SignSelector v-model="selectedSign" />
     </div>
     <Reading :sign="selectedSign" />
+    <Footer />
   </div>
 </template>
 
