@@ -83,7 +83,7 @@ export default {
       position: absolute;
 
        @media only screen and (max-width: 768px) {
-          width: 130px;
+          width: 100px;
         }
     }
 
@@ -95,7 +95,7 @@ export default {
          width: 160px;
 
          @media only screen and (max-width: 768px) {
-          width: 140px;
+          width: 100px;
         }
        }
     }
@@ -108,7 +108,7 @@ export default {
         width: 160px;
 
         @media only screen and (max-width: 768px) {
-          width: 140px;
+          width: 110px;
         }
       }
     }
