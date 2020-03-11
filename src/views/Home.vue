@@ -31,8 +31,10 @@ export default {
 
 <style lang="scss">
 .es-billboard {
-  padding: 30px 0;
-  background: black;
   color: white;
+  background-color: black;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRetkZB4ffPKjC5gMXk24su9S-AlLu40Xlw19FCIKnXinyjjIhb');
+  background-repeat: repeat;
+  padding: 30px 0;
 }
 </style>
