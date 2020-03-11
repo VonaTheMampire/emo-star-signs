@@ -88,14 +88,14 @@ export default {
     }
 
      &:hover {
-      border-color: red;
+      border-color:  #eee;
 
        .es-icon {
-         fill: red;
-         width: 150px;
+         fill: #eee;
+         width: 160px;
 
          @media only screen and (max-width: 768px) {
-          width: 130px;
+          width: 140px;
         }
        }
     }
