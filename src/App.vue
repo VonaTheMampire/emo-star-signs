@@ -51,20 +51,20 @@ body {
 }
 
 .slide-left-enter-active, .slide-left-leave-active {
-transition: opacity .6s, margin .4s;
+transition: opacity .2s, margin .1s;
 }
 
 .slide-left-enter, .slide-left-leave-to {
   opacity: 0;
-  margin-left: -4px;
+  margin-left: -6px;
 }
 
 .slide-right-enter-active, .slide-right-leave-active {
-transition: opacity .6s, margin .4s;
+transition: opacity .2s, margin .1s;
 }
 
 .slide-right-enter, .slide-right-leave-to {
   opacity: 0;
-  margin-left: 4px;
+  margin-left: 6px;
 }
 </style>

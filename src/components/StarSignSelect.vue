@@ -62,25 +62,29 @@ export default {
     justify-content: space-around;
     align-items: center;
     transition: all .2s;
-    height: 90px;
+    height: 180px;
     width: 8%;
 
     @media only screen and (max-width: 1378px) {
-      height: 100px;
+      height: 180px;
       width: 16%;
     }
 
     @media only screen and (max-width: 768px) {
-      height: 100px;
-      width: 32%;
+      height: 180px;
+      width: 33%;
     }
 
    .es-icon {
-      width: 90px;
-      height: 90px;
+     font-weight: bold;
+      width: 140px;
       fill: white;
-      transition: all .2s;
+      transition: all .1s;
       position: absolute;
+
+       @media only screen and (max-width: 768px) {
+          width: 130px;
+        }
     }
 
      &:hover {
@@ -88,8 +92,11 @@ export default {
 
        .es-icon {
          fill: red;
-         height: 120px;
-         width: 120px;
+         width: 150px;
+
+         @media only screen and (max-width: 768px) {
+          width: 130px;
+        }
        }
     }
 
@@ -98,12 +105,10 @@ export default {
 
       .es-icon {
         fill: red;
-        height: 120px;
-        width: 120px;
+        width: 160px;
 
         @media only screen and (max-width: 768px) {
-          height: 110px;
-          width: 110px;
+          width: 140px;
         }
       }
     }
